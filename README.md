@@ -1,9 +1,6 @@
 # 🧠 AI Blog Generator from YouTube Videos
 
 The **AI Blog Generator** is a smart web app that generates high-quality blog posts from **YouTube video links** using **OpenAI's GPT models** and a **Django (Python)** backend. It transcribes, summarizes, and transforms video content into well-structured, readable blogs in seconds.
-
-![Demo Banner](https://your-image-link-if-any)
-
 ---
 ## 🚀 Key Features
 
@@ -28,4 +25,4 @@ The **AI Blog Generator** is a smart web app that generates high-quality blog po
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/jaiganesh2108/AI-Blog-Generator.git
-cd AI_Blog_Generator
+cd AI-Blog-Generator

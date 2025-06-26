@@ -74,7 +74,7 @@ def download_audio(link):
 def get_transcription(link):
     try:
         audio_file = download_audio(link)
-        aai.settings.api_key = "e1b8186bdeee4e099bbcceb674784dc1"
+        aai.settings.api_key = "Your-api-key"
         transcriber = aai.Transcriber()
         transcript = transcriber.transcribe(audio_file)
         return transcript.text
@@ -85,7 +85,7 @@ def get_transcription(link):
 # Helper: Generate blog article using Gemini
 def generate_blog_from_transcription(transcription):
     try:
-        genai.configure(api_key="AIzaSyCTzEaMVhN27q9ZytEVNAJzHGi8OXhW2oo")
+        genai.configure(api_key="your-api-key")
         model = genai.GenerativeModel("gemini-pro")
 
         prompt = f"""
